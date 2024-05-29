@@ -1,7 +1,5 @@
 # Forgejo Helm Chart <!-- omit from toc -->
 
-[![status-badge](https://ci.dachary.org/api/badges/forgejo-contrib/forgejo-helm/status.svg)](https://ci.dachary.org/forgejo-contrib/forgejo-helm)
-
 - [Introduction](#introduction)
 - [Update and versioning policy](#update-and-versioning-policy)
 - [Dependencies](#dependencies)
@@ -70,7 +68,7 @@ Additionally, this chart allows to provide LDAP and admin user configuration wit
 ## Update and versioning policy
 
 The Forgejo helm chart versioning does not follow Forgejo's versioning.
-The latest chart version can be looked up in <https://codeberg.org/forgejo-contrib/-/packages/container/forgejo/0.8.0> or in the [repository releases](https://codeberg.org/forgejo-contrib/forgejo-helm/releases).
+The latest chart version can be looked up in <https://codeberg.org/forgejo-contrib/-/packages/container/forgejo> or in the [repository releases](https://codeberg.org/forgejo-contrib/forgejo-helm/releases).
 
 The chart aims to follow Forgejo's releases closely.
 There might be times when the chart is behind the latest Forgejo release.
@@ -1091,6 +1089,8 @@ Complete Configuration can be taken from their website.
 Expected workflow is: Fork -> Patch -> Push -> Pull Request
 
 See [CONTRIBUTORS GUIDE](CONTRIBUTING.md) for details.
+
+Hop into [our Matrix room](https://matrix.to/#/#forgejo-helm-chart:matrix.org) if you have any questions or want to get involved.
 
 ## Upgrading
 
