@@ -68,7 +68,7 @@ Additionally, this chart allows to provide LDAP and admin user configuration wit
 ## Update and versioning policy
 
 The Forgejo helm chart versioning does not follow Forgejo's versioning.
-The latest chart version can be looked up in <https://codeberg.org/forgejo-contrib/-/packages/container/forgejo> or in the [repository releases](https://codeberg.org/forgejo-contrib/forgejo-helm/releases).
+The latest chart version can be looked up in <https://code.forgejo.org/forgejo-helm/-/packages/container/forgejo> or in the [repository releases](https://code.forgejo.org/forgejo-helm/forgejo-helm/releases).
 
 The chart aims to follow Forgejo's releases closely.
 There might be times when the chart is behind the latest Forgejo release.
@@ -119,13 +119,13 @@ and look up the image tag which fits your needs on Dockerhub.
 ## Installing
 
 ```sh
-helm install forgejo oci://codeberg.org/forgejo-contrib/forgejo
+helm install forgejo oci://code.forgejo.org/forgejo-helm/forgejo
 ```
 
 In case you want to supply values, you can reference a `values.yaml` file:
 
 ```sh
-helm install forgejo -f values.yaml oci://codeberg.org/forgejo-contrib/forgejo
+helm install forgejo -f values.yaml oci://code.forgejo.org/forgejo-helm/forgejo
 ```
 
 When upgrading, please refer to the [Upgrading](#upgrading) section at the bottom of this document for major and breaking changes.
